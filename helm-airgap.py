@@ -30,7 +30,7 @@ def main():
     with open(filename, "r") as f:
         images = [line.strip() for line in f.readlines()]
 
-    print("Downloading all container images required for air gapped installation, this can take a while")
+    print("Downloading all container images required for air gapped installation, this can take little more than an hour")
     start_time = time.time()
 
     success_count = 0
